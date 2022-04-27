@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('unittest') {
+      steps {
+        sh 'echo tesing'
+      }
+    }
+
   }
 }
